@@ -9,21 +9,41 @@
     padding: 0;
 }
 
-#heading-container {
+#whole-container {
+    display: flex;
+    border: solid red;
+    height: 100vh;
+    width: 100vw;
+}
+
+#left-container {
     background-image: url(/photos/GreenTower.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    position: fixed;
-    width: 40%;
+    display: flex;
+    border: solid blue;
+    height: 100vh;
+    width: 40vw;
+}
+
+#right-container {
+    border: solid green;
+    display: flex;
+    flex-direction: column;
 }
 
 #content-left {
-    align-items: center;
+    border: solid;
+    height: 100vh;
+    width: 100vw;
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 160px;
+}
+
+.logo {
+    height: 200px;
 }
 
 .heading-odin {
@@ -32,7 +52,16 @@
     font-size: 80px;
 }
 
-.logo {
-    height: auto;
-    width: 100px;
+#entire-header-text {
+    border: solid pink;
+    padding: 50px;
 }
+
+.right-header-text {
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    border: solid;
+    width: 75%;
+    padding: 1em;
+    font-weight: bold;
+}
+
