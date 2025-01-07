@@ -3,6 +3,36 @@
     src: url(/photos/Norse-Bold.otf);
 }
 
-h1 {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#heading-container {
+    background-image: url(/photos/GreenTower.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: fixed;
+    width: 40%;
+}
+
+#content-left {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+}
+
+.heading-odin {
     font-family: 'Norse-Bold';
+    color: white;
+    font-size: 80px;
+}
+
+.logo {
+    height: auto;
+    width: 100px;
 }
