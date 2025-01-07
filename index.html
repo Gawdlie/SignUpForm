@@ -18,47 +18,51 @@
             <div id="entire-header-text">
                 <p class="right-header-text">This is not a real online service!
                     You know you need something like this in your life to help
-                    you realize your deepest dreams. Sign up now to get started.
+                    you realize your deepest dreams. Sign up <em>now</em> to get started.
                 </p>
-                <p class="right-header-text">You know you want to.</p>
+                <p class="right-header-text">You <em>know</em> you want to.</p>
             </div>
             <div id="form-container">
-                <h2>Let's do this!</h2>
-                <form action="mailto:maverickgm9@gmail.com" method="post">
-                    <fieldset>
-                        <div id="top">
-                            <div class="first">
-                                <label for="first-name">First Name</label>
-                                <input type="text" id="first-name" name="firstName">
+                <form action="mailto:maverickgm9@gmail.com" method="post"></form>
+                    <h2>Let's do this!</h2>
+                        <fieldset>
+                            <div id="top">
+                                <div class="first">
+                                    <label for="first-name">First Name</label>
+                                    <input type="text" id="first-name" name="firstName" required>
+                                </div>
+                                <div class="last">
+                                    <label for="last-name">Last Name</label>
+                                    <input type="text" id="last-name" name="lastName" required>
+                                </div>
                             </div>
-                            <div class="last">
-                                <label for="last-name">Last Name</label>
-                                <input type="text" id="last-name" name="lastName">
+                            <div id="middle">
+                                <div class="email">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="phone-number">
+                                    <label for="phone-number">Phone Number</label>
+                                    <input type="number" id="phone-number" name="phoneNumber" required>
+                                </div>
                             </div>
-                        </div>
-                        <div id="middle">
-                            <div class="email">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email">
+                            <div id="bottom">
+                                <div class="password">
+                                    <label for="password">Password</label>
+                                    <input type="password" id="password" name="password" minlength="8" maxlength="20" required>
+                                </div>
+                                <div class="confirm-password">
+                                    <label for="confirm">Confirm Password</label>
+                                    <input type="password" id="confirm" name="confirmPassword" minlength="8" maxlength="20" required>
+                                </div>
                             </div>
-                            <div class="phone-number">
-                                <label for="phone-number">Phone Number</label>
-                                <input type="number" id="phone-number" name="phoneNumber">
-                            </div>
-                        </div>
-                        <div id="bottom">
-                            <div class="password">
-                                <label for="password">Password</label>
-                                <input type="password" id="password" name="password">
-                            </div>
-                            <div class="confirm-password">
-                                <label for="confirm">Confirm Password</label>
-                                <input type="password" id="confirm" name="confirmPassword">
-                            </div>
-                        </div>
-                    </fieldset>
-                    <button type="submit" id="create-button">Create Account!</button>
+                            <button type="submit" id="create-button">Create Account!</button>
+                        </fieldset>
                 </form>
+                <div id="footing">
+                    <p>Already have an account?</p>
+                    <p class="login">Log in</p>
+                </div>
             </div>
         </div>
     </div>
