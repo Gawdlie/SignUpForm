@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Norse-Bold';
-    src: url('./photos/Norse-Bold.otf');
+    src: url('photos/Norse-Bold.otf');
 }
 
 * {
@@ -16,7 +16,7 @@
 }
 
 #left-container {
-    background-image: url('./photos/GreenTower.avif');
+    background-image: url('photos/GreenTower.avif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
