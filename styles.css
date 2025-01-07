@@ -31,6 +31,7 @@
     border: solid green;
     display: flex;
     flex-direction: column;
+
 }
 
 #content-left {
@@ -40,6 +41,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#form-container {
+    border: solid;
+    padding: 50px;
+}
+
+#create-button {
+    background-color: green;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    border: transparent;
+    margin-top: 20px;
 }
 
 .logo {
@@ -65,3 +80,23 @@
     font-weight: bold;
 }
 
+#top,
+#middle,
+#bottom {
+    display: flex;
+    gap: 100px;
+}
+
+.first,
+.last,
+.email,
+.phone-number,
+.password,
+.confirm-password {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 250px;
+}
